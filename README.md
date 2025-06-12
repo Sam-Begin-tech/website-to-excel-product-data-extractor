@@ -60,6 +60,110 @@ It’s designed to be simple and beginner-friendly, using modular Python code an
 | products.xlsx | Output file (auto-generated)         |
 
 
+---
+
+## 🧠 Ollama Installation & Model Setup
+
+This project uses Ollama to run a local LLM (Large Language Model) that extracts product details from raw webpage text.
+
+### 📥 Step 1: Install Ollama
+
+Ollama allows you to run open-source LLMs locally on your machine.
+
+Install it from the official site:
+
+🔗 [https://ollama.com/download](https://ollama.com/download)
+
+Choose the version for:
+
+* Windows
+* macOS
+* Linux (Ubuntu/Debian via terminal)
+
+After installation, make sure the ollama command is available in your terminal:
+
+```bash
+ollama --version
+---
+
+## 🧠 Ollama Installation & Model Setup
+
+This project uses Ollama to run a local LLM (Large Language Model) that extracts product details from raw webpage text.
+
+### 📥 Step 1: Install Ollama
+
+Ollama allows you to run open-source LLMs locally on your machine.
+
+Install it from the official site:
+
+🔗 [https://ollama.com/download](https://ollama.com/download)
+
+Choose the version for:
+
+* Windows
+* macOS
+* Linux (Ubuntu/Debian via terminal)
+
+After installation, make sure the ollama command is available in your terminal:
+
+```bash
+ollama --version
+```
+
+If this works, you're ready to run local models!
+
+---
+
+### 📦 Step 2: Pull the Required Model
+
+This project uses the Gemma 2B model. Pull it using:
+
+```bash
+ollama pull gemma2:2b
+```
+
+Wait for the model to download (this may take a few minutes). Once completed, Ollama can run it locally in the background.
+
+You can test it with:
+
+```bash
+ollama run gemma2:2b
+```
+
+---
+
+📝 Note:
+You can replace gemma2:2b with any other LLM you prefer (e.g., phi3, llama3, etc.), as long as it's compatible with your LangChain or inference code.
+
+---
+```
+
+If this works, you're ready to run local models!
+
+---
+
+### 📦 Step 2: Pull the Required Model
+
+This project uses the Gemma 2B model. Pull it using:
+
+```bash
+ollama pull gemma2:2b
+```
+
+Wait for the model to download (this may take a few minutes). Once completed, Ollama can run it locally in the background.
+
+You can test it with:
+
+```bash
+ollama run gemma2:2b
+```
+
+---
+
+📝 Note:
+You can replace gemma2:2b with any other LLM you prefer (e.g., phi3, llama3, etc.), as long as it's compatible with your LangChain or inference code.
+
+---
 
 ---
 
