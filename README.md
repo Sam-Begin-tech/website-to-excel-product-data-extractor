@@ -1,5 +1,3 @@
-# website-to-excel-product-data-extractor
-
 # 🛒 Product Data Extractor from Website to Excel (LLM-Powered)
 
 This is a Python-based prototype that automatically crawls a website, extracts product-related information using an AI language model, and saves the results into an Excel spreadsheet.
