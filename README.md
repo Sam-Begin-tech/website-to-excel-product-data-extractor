@@ -63,6 +63,25 @@ It’s designed to be simple and beginner-friendly, using modular Python code an
 
 
 
+---
+
+## 🌐 Demo Website Used
+
+This prototype was tested using the following publicly accessible e-commerce site:
+
+🔗 [https://edenmart.in/](https://edenmart.in/)
+
+It was used as an example to:
+
+* Demonstrate product data crawling and extraction
+* Validate LLM-based parsing of pricing details
+* Export a real-world dataset into Excel
+
+⚠️ Note:
+This tool is intended solely for educational and demonstration purposes. It does not store, misuse, or distribute any data obtained from the target website. Users are strongly advised to review and comply with the website’s robots.txt file and Terms of Service before applying this tool to any external domain.
+
+---
+
 Install dependencies:
 
 ```bash
