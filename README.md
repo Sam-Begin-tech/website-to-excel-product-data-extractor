@@ -53,6 +53,16 @@ It’s designed to be simple and beginner-friendly, using modular Python code an
 - LangChain library
 - pandas, numpy, beautifulsoup4
 
+
+| File              | Purpose                              |
+| ----------------- | ------------------------------------ |
+| product_data_extraction.ipynb           | Main logic for crawling & extraction |
+|data_extraction.ipynb |  Notebook showing your initial prototyping|
+| README.md         | This documentation                   |
+| products.xlsx | Output file (auto-generated)         |
+
+
+
 Install dependencies:
 
 ```bash
